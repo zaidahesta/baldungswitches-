@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+  docker run \
+-v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
 <body>
   <h1>Baldung's Witches</h1><p>
   <h2>Zaida Hesta</h2></p>
