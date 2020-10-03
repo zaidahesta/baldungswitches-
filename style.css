@@ -5,7 +5,7 @@ body {
 
 
 div.polaroid {
-
+  width: 20%
   background-color: #595959;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.8), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 2px;
