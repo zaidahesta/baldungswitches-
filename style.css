@@ -3,31 +3,32 @@ body {
    background-color: #990000;
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
+/* Add a black background color to the top navigation */
+.topnav {
   position: relative;
-  bottom: 0;
-  width: 100%;
+  background-color: #333;
+  overflow: hidden;
 }
 
-.navbar a {
-  float: center;
-  display: block;
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 0px 0px;
+  padding: 20px 20x;
   text-decoration: none;
   font-size: 25px;
-  margin: 0;
   font-family: "ink free", sans-serif;
 }
 
-.navbar a:hover {
-  background: #f1f1f1;
-  color: black;
-
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: #990000;
 }
+
+
+/* Centered section inside the top navigation */
 .topnav-centered a {
   float: none;
   position: absolute;
@@ -36,9 +37,11 @@ body {
   transform: translate(-50%, -50%);
 }
 
+/* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
 }
+
 
 div.polaroid {
 
