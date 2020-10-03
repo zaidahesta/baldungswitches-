@@ -16,7 +16,7 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0px 0px;
   text-decoration: none;
   font-size: 25px;
   margin: 0;
@@ -44,8 +44,8 @@ color: white;
 
 
 .main {
-  padding: 16px;
-  margin-bottom: 30px;
+  padding: 5px;
+  margin-bottom: 5px;
 }
 
 p.head {
