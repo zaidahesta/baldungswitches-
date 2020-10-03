@@ -3,14 +3,6 @@ body {
    background-color: #990000;
 }
 
-div.polaroid {
-  width: 75%;
-  background-color: #595959;
-  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.8), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-}
-
-
 
 .main {
   padding: 5px;
