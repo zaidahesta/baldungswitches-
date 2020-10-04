@@ -12,14 +12,17 @@ body {
 p.head {
   font-family: "Ink Free",sans-serif;
   font-size: 25px;
+  text-align: right;
   }
 
 p.arial {
   font-family: "Candara",sans-serif;
   font-size: 20px;
+     text-align: right;
 }
 
 p.arial2 {
   font-family: "Candara", sans-serif;
   font-size: 16px;
+     text-align: right;
 }
