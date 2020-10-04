@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">  
+<html>
+<head>  
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/fira-sans" type="text/css"/>
   <link rel="stylesheet" href="style.css">
-<head> <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 
 body { 
@@ -35,7 +37,7 @@ body, html {
 /* Style tab links */
 .tablink {
   background-color: #333;
-  color: white;
+  color: #ffffff;
   float: left;
   border: none;
   outline: none;
@@ -67,37 +69,6 @@ body, html {
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('HBW', this, '#990000')">Hans Baldung's Witches</button>
-<button class="tablink" onclick="openPage('Sources', this, '#990000')" id="defaultOpen">Sources & Further reading</button>
-<button class="tablink" onclick="openPage('About', this, '#990000')">About the author</button>
-
-
-<div id="HBW" class="tabcontent">
-<right>
-<p class = "head">Hans Baldung's Witches</p>
-<p class = "arial">A brief introduction by Zaida Hesta</p> 
-<p>
-<div class="polaroid">
-<img src="https://images.metmuseum.org/CRDImages/dp/original/MM16375.jpg" style="width:500px;height:600px;">
-<div class="container">
-<p class = "arial2"> Hans Baldung, <i>The Witches (Witches’ Sabbath)</i>, 1510, chiaroscuro woodcut on paper, 
-38.9 x 27 cm, The Metropolitan Museum of Art, New York.</p> 
-</div>
-</div> 
-	</div> </right>
-
-<div id="Sources" class="tabcontent"><right>
-  <h class = "head">Sources & Further Reading </h>
-  <p class = "arial">source source source </p> 
-	</div></right>
-
-<div id="About" class="tabcontent"><right> 
-  <h class = "head">About the author</h>
-  <p class = "arial"> zaida hesta is one tired bitch </p>
-</div><right> 
-
-
-
 <script>
 function openPage(pageName,elmnt,color) {
   var i, tabcontent, tablinks;
@@ -118,9 +89,34 @@ document.getElementById("defaultOpen").click();
 </script>
    
 
-<br>
-<br>
-<br>
+<button class="tablink" onclick="openPage('HBW', this, '#990000')">Hans Baldung's Witches</button>
+<button class="tablink" onclick="openPage('Sources', this, '#990000')" id="defaultOpen">Sources & Further reading</button>
+<button class="tablink" onclick="openPage('About', this, '#990000')">About the author</button>
+
+
+<div id="HBW" class="tabcontent">
+
+<p class = "head">Hans Baldung's Witches</p>
+<p class = "arial">A brief introduction by Zaida Hesta</p> 
+<p>
+<div class="polaroid">
+<img src="https://images.metmuseum.org/CRDImages/dp/original/MM16375.jpg" style="width:500px;height:600px;">
+<div class="container">
+<p class = "arial2"> Hans Baldung, <i>The Witches (Witches’ Sabbath)</i>, 1510, chiaroscuro woodcut on paper, 
+38.9 x 27 cm, The Metropolitan Museum of Art, New York.</p> 
+</div>
+</div> 
+	</div> 
+
+<div id="Sources" class="tabcontent">
+  <h class = "head">Sources & Further Reading </h>
+  <p class = "arial">source source source </p> 
+	</div>
+
+<div id="About" class="tabcontent">
+  <h class = "head">About the author</h>
+  <p class = "arial"> zaida hesta is one tired bitch </p>
+</div>
 
 	
 </body>
