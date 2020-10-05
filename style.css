@@ -10,19 +10,19 @@ body {
 }
 
 p.head {
-  font-family: "Alegreya SC",serif;
+  font-family: "Medici",serif;
   font-size: 28px;
   text-align: left;
   }
 
 p.arial {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   text-align: left;
 }
 
 p.arial2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   text-align: right;
 }
