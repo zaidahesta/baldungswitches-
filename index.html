@@ -31,7 +31,6 @@ div.container {
   color: #ffffff;	
 }
 	
-
 * {box-sizing: border-box}
 
 
@@ -68,6 +67,25 @@ body, html {
   padding: 100px 20px;
   height: 100%;
 }
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
 
 #HBW {background-color: #990000;}
 #Sources {background-color: #990000;}
@@ -83,6 +101,9 @@ body, html {
 
     
 <div id="HBW" class="tabcontent">
+
+<div class="row">
+<div class="column">
 
 <p class="head">Hans Baldung's Witches <span style="font-size:20pt">     -    A brief introduction by Zaida Hesta </span></p>
 
@@ -107,9 +128,9 @@ body, html {
 	HBG witches witches witches  HBG witches witches witches  HBG witches witches witches  <br>
 	HBG witches witches witches  HBG witches witches witches <br>
 	 HBG witches witches witches  HBG witches witches witches  HBG witches witches witches <br>
-	</p>
+	</p></div></div> </div>
 	
-<p>
+  <div class="column">
 <div class="polaroid">
 <img src="https://iili.io/2WOzXa.png" style="width:100%">
 <div class="container">
@@ -117,10 +138,11 @@ body, html {
 	38.9 x 27 cm, The Metropolitan Museum of Art, New York.</p>
 
 </div>
-</div> 
-	</div> 
+</div></div> 
 
 <div id="Sources" class="tabcontent">
+<div class="row">
+  <div class="column">
   <p class="head">Sources & Further Reading </p>
   <p class="arial">source source source source source source source source <br>
 	  source source source source source source source source source source source source source source <br>
@@ -137,9 +159,11 @@ body, html {
 	  source source source source source source source source source source source source source source <br>
 	  source source source source source source source source source source source source source source source <br>
 	  source source source source source source source source source</p> 
-	</div>
+	</div></div> </div>
 
 <div id="About" class="tabcontent">
+<div class="row">
+  <div class="column">
   <p class="head">About the author</p>
   <p class="arial"> it me bitch  it me bitch  it me bitch  it me bitch <br>
 	   it me bitch  it me bitch  it me bitch  it me bitch  it me bitch <br>
@@ -167,7 +191,7 @@ body, html {
 	   it me bitch  it me bitch  it me bitch  it me bitch  it me bitch <br>
 	   it me bitch  it me bitch  it me bitch  it me bitch  it me bitch <br>
 	  v it me bitch it me bitch </p>
-</div>
+</div></div></div> 
 
 <script>
 function openPage(pageName,elmnt,color) {
