@@ -66,7 +66,19 @@ body, html {
   padding: 100px 20px;
   height: 100%;
 }
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 #HBW {background-color: #990000;}
 #Sources {background-color: #990000;}
@@ -82,11 +94,12 @@ body, html {
 
     
 <div id="HBW" class="tabcontent">
-
+<div class="row">
+<div class="column">
 <p class="head">Hans Baldung's Witches <span style="font-size:20pt">     -    A brief introduction by Zaida Hesta </span></p>
 
-<p class ="arial"> PLEASE WORK NOWWWW </p>
-	
+	<p class ="arial"> PLEASE WORK NOWWWW </p> </div>
+	<div class="column"> 
 <div class="polaroid">
 	<img src="https://iili.io/2WOzXa.png" style="width:100%"></div>
 <div class="container">
@@ -96,7 +109,8 @@ The Metropolitan Museum of Art, New York.</p> </div>
 
 
 <div id="Sources" class="tabcontent">
-	
+	<div class="row">
+<div class="column">
   <p class="head">Sources & Further Reading </p>
   <p class="arial">source source source source source source source source <br>
 	  source source source source source source source source source source source source source source <br>
@@ -116,7 +130,8 @@ The Metropolitan Museum of Art, New York.</p> </div>
 	</div>
 
 <div id="About" class="tabcontent">
-
+<div class="row">
+<div class="column">
   <p class="head">About the author</p>
   <p class="arial"> it me bitch  it me bitch  it me bitch  it me bitch <br>
 	   it me bitch  it me bitch  it me bitch  it me bitch  it me bitch <br>
