@@ -75,7 +75,12 @@ body, html {
 	float: right; 
     margin-left: 50%;
 }
-
+.center {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+	
 #HBW {background-color: #990000;}
 #Sources {background-color: #990000;}
 #About {background-color: #990000;}
@@ -87,10 +92,10 @@ body, html {
 <header> 
 <h1><img src="https://iili.io/2Xyo2R.png" style="width:90%"> </h1> 
 </header>
-
+<div class="center"> 
 <button class="tablink" onclick="openPage('HBW', this, '#990000')" id="defaultOpen">Hans Baldung's Witches</button>
 <button class="tablink" onclick="openPage('Sources', this, '#990000')">Sources & Further reading</button>
-<button class="tablink" onclick="openPage('About', this, '#990000')">About the author</button>
+	<button class="tablink" onclick="openPage('About', this, '#990000')">About the author</button></div>
  
 <div id="HBW" class="tabcontent">
 <div class="left"> 
@@ -114,7 +119,7 @@ a large cup on the end, placed strategically below the flying goat. This goat ca
 		The Metropolitan Museum of Art, New York.</p> 
 	</div> 
 
-<div id="Sources" class="tabcontent"> <div class="right">
+<div id="Sources" class="tabcontent"> 
 <p class="head">Sources & Further Reading </p>
 <p class="arial">source source source source source source source source 
 	  source source source source source source source source source source source source source source 
@@ -124,7 +129,7 @@ a large cup on the end, placed strategically below the flying goat. This goat ca
 	  source source source source source source source source source source source source source source </p>
 	</div> 
 
-<div id="About" class="tabcontent"><div class="right"> 
+<div id="About" class="tabcontent">
 <p class="head">About the author</p>
 <p class="arial"> it me bitch  it me bitch  it me bitch  it me bitch 
 	   it me bitch  it me bitch  it me bitch  it me bitch  it me bitch 
