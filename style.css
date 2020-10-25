@@ -1,11 +1,12 @@
 
-body { 
+body, html { 
   background-color: #990000;
-}
-	.main {
+  height: 100%;
+  margin: 0;
+  font-family: "Alegreya SC",serif;
   padding: 20px;
   margin-bottom: 20px;
-}
+}	
 
 p.head {
   font-family: "Felix Titling",serif;
@@ -24,8 +25,6 @@ p.arial2 {
   font-size: 14px;
   text-align: right;
 }
-	
-
 
 div.polaroid {    
   width: 100%;
@@ -42,13 +41,6 @@ div.container {
 }
 	
 * {box-sizing: border-box}
-
-/* Set height of body and the document to 100% */
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: "Alegreya SC",serif;
-}
 
 .topnav {
   background-color: #333;
@@ -83,14 +75,11 @@ body, html {
   color: #ffffff;
 }
 
-
-
-
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
   color: #ffffff;
   display: none;
-  padding: 100px 20px
+  padding: 100px 20px;
   height: 100%;
 }
 
