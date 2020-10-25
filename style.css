@@ -25,6 +25,25 @@ p.arial2 {
   font-size: 16px;
   text-align: right;
 }
+/* unvisited link */
+a:link {
+  color: #ffe6e6;
+}
+
+/* visited link */
+a:visited {
+  color: ##ff8080;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffffff;
+}
+
+/* selected link */
+a:active {
+  color: #333;
+}
 
 div.polaroid {    
   width: 100%;
