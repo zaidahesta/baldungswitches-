@@ -46,10 +46,19 @@ div.container {
   background-color: #333;
   overflow: hidden;
   position: fixed;
-  bottom: 0;
+  top: 0;
   width: 80%;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .topnav a {
   float: left;
