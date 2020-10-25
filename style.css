@@ -47,7 +47,7 @@ div.container {
   overflow: hidden;
   position: fixed;
   top: 0;
-  width: 80%;
+  width: 100%;
 }
 
 .column {
