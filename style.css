@@ -59,24 +59,41 @@ body, html {
   font-family: "Alegreya SC",serif;
 }
 
-/* Style tab links */
-.tablink {
+.topnav {
   background-color: #333;
-  color: #ffffff;
-  float: left;
-  border-style: solid;
-  border-color: #000000;
-  outline: none;
-  cursor: pointer;
-  padding: 14px;
-  font-size: 20px;
-  width: 30%;
-  font-family: "Felix Titling"; 
+  overflow: hidden;
+  position: fixed;
+  top: 10;
+  width: 750px;
 }
 
-.tablink:hover {
-  background-color: #990000;
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+
+  font-family: "Felix Titling";
+  font-weight: normal; 
+  font-style: normal; 
+
 }
+
+.topnav a:hover {
+  background-color: #990000;
+  color: #ffffff;
+}
+
+.topnav a.active {
+  background-color: #990000;
+  color: #ffffff;
+}
+
+
+
 
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
