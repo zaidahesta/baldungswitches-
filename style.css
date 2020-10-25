@@ -1,6 +1,6 @@
 
 body { 
-   background-color: #990000;
+  background-color: #990000;
   width: 850px;
   max-width: 90%;
   margin: 0 auto;
@@ -10,7 +10,7 @@ body {
 
 .main {
   padding: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 p.head {
@@ -31,10 +31,21 @@ p.arial2 {
   text-align: right;
 }
 	
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+img, audio, iframe {
+  width: 100%;
+}
+
+.column {
+  float: left;
+  width: 19%;
+  padding: 2px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 div.polaroid {    
