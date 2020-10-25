@@ -63,8 +63,8 @@ body, html {
   background-color: #333;
   overflow: hidden;
   position: fixed;
-  top: 10;
-  width: 750px;
+  top: 2;
+  width: 100%;
 }
 
 
