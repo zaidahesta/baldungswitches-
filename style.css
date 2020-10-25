@@ -30,9 +30,6 @@ p.arial2 {
   font-size: 14px;
   text-align: right;
 }
-body { 
-   background-color: #990000;
-}
 	
 img {
   display: block;
@@ -68,7 +65,7 @@ body, html {
   overflow: hidden;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 80%;
 }
 
 
@@ -78,7 +75,7 @@ body, html {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
 
   font-family: "Felix Titling";
   font-weight: normal; 
