@@ -1,15 +1,9 @@
 
 body { 
   background-color: #990000;
-  width: 850px;
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 1em;
-}
-
 
 .main {
-  padding: 5px;
+  padding: 20px;
   margin-bottom: 20px;
 }
 
